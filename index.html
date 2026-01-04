@@ -1097,9 +1097,32 @@
         <section class="projects-section">
             <!-- 2024 Projects -->
             <div class="year-content" data-year="2024">
-                <div class="empty-state">
-                    <h3>Coming Soon</h3>
-                    <p>Projects from 2024 will be added here.</p>
+                <div class="projects-grid">
+
+                    <!-- Wyoming REU Research -->
+                    <article class="card">
+                        <div class="card-image">
+                            <div class="placeholder-icon">🤖</div>
+                            <span class="badge badge-stable">Research</span>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Assistive Teleoperation</h3>
+                            <p class="card-description">
+                                NSF REU research on assistive teleoperation of robotic manipulators. Built depth-aware control systems using monocular vision and deployed on a Franka Emika robot arm for real-time manipulation tasks.
+                            </p>
+                            <div class="tags">
+                                <span class="tag">ROS1</span>
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">MonoDepth2</span>
+                                <span class="tag">Computer Vision</span>
+                                <span class="tag">Franka Robot</span>
+                            </div>
+                            <span class="view-project" style="color: var(--text-muted);">
+                                University of Wyoming • Summer 2024
+                            </span>
+                        </div>
+                    </article>
+
                 </div>
             </div>
 
@@ -1195,17 +1218,18 @@
                 <div class="about-text">
                     <h2>// ABOUT_ME</h2>
                     <p>
-                        I'm an <span class="highlight">Artificial Intelligence</span> student at
-                        <span class="highlight">Purdue University, Indiana</span>, passionate about building
-                        intelligent systems that operate at the edge. My work focuses on
-                        <span class="highlight">on-device AI</span>, autonomous agents, and creating
-                        privacy-first applications that don't rely on cloud infrastructure.
+                        I build AI that runs in your pocket, not the cloud. As a student at
+                        <span class="highlight">Purdue University</span>, I focus on
+                        <span class="highlight">Edge AI</span> and autonomous agents because I believe
+                        privacy and latency shouldn't be afterthoughts. When I'm not optimizing inference
+                        for mobile, I'm usually breaking things in <span class="highlight">ROS</span>
+                        or tinkering with AR.
                     </p>
                     <br>
                     <p>
-                        When I'm not training models or writing code, I'm exploring the intersection of
-                        <span class="highlight">robotics</span>, <span class="highlight">computer vision</span>,
-                        and <span class="highlight">human-computer interaction</span>.
+                        My research sits at the intersection of <span class="highlight">robotics</span>,
+                        <span class="highlight">computer vision</span>, and real-time systems—the kind of
+                        work where milliseconds matter and the model has to fit on the device.
                     </p>
 
                     <div class="education-card" style="margin-top: 24px;">
@@ -1247,15 +1271,15 @@
                 <div class="timeline-item">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
-                        <div class="date-badge">2024 - PRESENT</div>
+                        <div class="date-badge">SUMMER 2024</div>
                         <h3>REU Research Intern</h3>
                         <h4>University of Wyoming // Laramie, WY</h4>
-                        <p>Engineered real-time robotic imitation learning algorithms using ROS1 and PyTorch. Integrated MonoDepth2 for single-camera spatial awareness and depth estimation in autonomous systems.</p>
+                        <p>Built depth-aware teleoperation for a Franka robot arm using a single camera. Trained imitation learning models in PyTorch and shipped working ROS nodes for real-time control.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">ROS1</span>
                             <span class="tech-tag">PyTorch</span>
                             <span class="tech-tag">MonoDepth2</span>
-                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Franka</span>
                         </div>
                     </div>
                 </div>
@@ -1267,7 +1291,7 @@
                         <div class="date-badge">2021 - PRESENT</div>
                         <h3>Lead Developer</h3>
                         <h4>Idea Garden // Remote</h4>
-                        <p>Orchestrated comprehensive IT system audits improving security protocols across infrastructure. Optimized data storage pipelines resulting in 15% performance improvement.</p>
+                        <p>Audited IT systems and patched security holes. Rewrote data pipelines to boost storage performance by 15%.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">System Architecture</span>
                             <span class="tech-tag">Security Audit</span>
@@ -1283,12 +1307,28 @@
                         <div class="date-badge">2022</div>
                         <h3>iOS Research Assistant</h3>
                         <h4>IUPUI // Indianapolis, IN</h4>
-                        <p>Developed "Nano Vision" augmented reality application using Unity and ARKit. Engineered accessibility modes ensuring inclusivity for users with physical disabilities.</p>
+                        <p>Built "Nano Vision," an AR app that makes nanoscale structures visible. Added accessibility modes for users with motor impairments.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">ARKit</span>
                             <span class="tech-tag">Swift</span>
                             <span class="tech-tag">Accessibility</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Robotics Club Mentor -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="date-badge">2021 - 2023</div>
+                        <h3>Robotics Club Mentor</h3>
+                        <h4>FIRST Robotics // Indianapolis, IN</h4>
+                        <p>Mentored high school students in robot design, programming, and competition strategy. Taught fundamentals of mechanical systems, sensors, and autonomous navigation.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Mentorship</span>
+                            <span class="tech-tag">FIRST Robotics</span>
+                            <span class="tech-tag">Education</span>
                         </div>
                     </div>
                 </div>
@@ -1330,8 +1370,8 @@
                     © 2025 Eric Raymond. <span class="status">Systems Operational.</span>
                 </div>
                 <div class="footer-links">
-                    <a href="#">Privacy Protocol</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="https://github.com/raayraay69" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/eric--raymond/" target="_blank" rel="noopener">LinkedIn</a>
                 </div>
             </div>
         </div>
